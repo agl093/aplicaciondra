@@ -1,0 +1,15 @@
+<div class="app-container">
+  <div class="sidebar">
+    <div class="logo">
+      <img [src]="logoUrl" alt="Logo de Hearthstone" />
+    </div>
+    <ul>
+      <li><a routerLink="/home" routerLinkActive="active"><mat-icon>home</mat-icon> Home</a></li>
+      <li><a routerLink="/card" routerLinkActive="active"><mat-icon>videogame_asset</mat-icon> Cards</a></li>
+      <li><a routerLink="/guardada" routerLinkActive="active"><mat-icon>favorite</mat-icon> Favourites</a></li>
+    </ul>
+  </div>
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

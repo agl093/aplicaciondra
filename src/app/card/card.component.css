@@ -1,0 +1,76 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15px; /* Ajusta el margen izquierdo para compensar el menú lateral */
+}
+
+.col-md-12 {
+  flex: 0 0 100%; /* Ocupa todo el ancho disponible */
+  padding-right: 0; /* Elimina el padding derecho para ajustarse al menú lateral */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px; /* Aplica un margen izquierdo para separar las cartas */
+}
+
+.card {
+  flex: 0 0 10px; /* Establece el ancho de cada carta en 50px */
+  margin: 5px; /* Agrega un margen entre las cartas */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-image {
+  text-align: center;
+}
+
+.card-footer {
+  margin-top: 10px; /* Ajusta el margen superior del footer */
+  display: flex;
+  justify-content: center;
+}
+
+.btn-favorito {
+  padding: 10px 20px; /* Ajusta el padding del botón */
+  font-size: 16px; /* Ajusta el tamaño de la fuente del botón */
+  background-color: #3498db; /* Cambia el color de fondo del botón */
+  color: #fff; /* Cambia el color del texto del botón */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 5px; /* Agrega bordes redondeados al botón */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Agrega una transición de 0.3 segundos a la propiedad de color de fondo */
+}
+
+.btn-favorito:hover {
+  background-color: #2980b9; /* Cambia el color de fondo al pasar el ratón por encima */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 5px;
+}
+
+.pagination-button:hover {
+  background-color: #0056b3;
+}
+
+.pagination-info {
+  margin: 0 10px;
+  font-size: 16px;
+}

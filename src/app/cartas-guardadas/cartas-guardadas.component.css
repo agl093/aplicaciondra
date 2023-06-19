@@ -1,0 +1,10 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Crea 4 columnas iguales */
+    gap: 10px; /* Espacio entre las cartas */
+  }
+  
+  .card-item {
+    width: 100%; /* Asegura que las cartas ocupen todo el espacio disponible */
+  }
+  

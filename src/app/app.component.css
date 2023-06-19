@@ -1,0 +1,76 @@
+.sidebar {
+  background-color: #39281D;
+  color: #fff;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 20px;
+  overflow-y: auto;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.sidebar li {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar li a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.sidebar li a .mat-icon {
+  font-size: 20px;
+}
+
+.sidebar li:hover {
+  background-color: #555;
+}
+
+.sidebar li a.active {
+  background-color: #555;
+}
+
+.sidebar li a.active .mat-icon {
+  /* Estilos para resaltar el icono cuando el botón está activo */
+  /* Por ejemplo, cambiar el color del icono */
+  color: #FFD836;
+}
+
+.app-container {
+  display: flex;
+  margin-left: 200px; /* Añadido para ajustar el margen izquierdo */
+}
+
+.logo {
+  display: flex;
+  justify-content: center; /* Añadido para centrar horizontalmente */
+  margin-bottom: 20px; /* Añadido para crear un espacio entre el logo y los enlaces */
+}
+
+.logo img {
+  max-width: 200px;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: auto; /* Añadido para ajustar el margen izquierdo */
+  padding: 20px; /* Añadido para ajustar el espacio alrededor del contenido */
+}
